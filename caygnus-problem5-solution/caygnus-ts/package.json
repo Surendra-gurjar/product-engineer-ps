@@ -1,0 +1,25 @@
+{
+  "name": "caygnus-reliable-conversation-runtime",
+  "version": "1.0.0",
+  "description": "Caygnus Product Engineering Challenge -- Problem 5: Reliable AI Conversation Runtime",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "cli": "tsx cli.ts",
+    "server": "tsx server.ts",
+    "benchmark": "tsx benchmark.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
